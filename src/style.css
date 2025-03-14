@@ -82,9 +82,33 @@ main {
   top: -30px;
 }
 
+.weather-app-forecast-date {
+text-align: center;
+color:#4A4A48;
+font-size:16px;
+line-height: 28px;
+}
+
+.weather-app-forecast-icon {
+  text-align: center;
+  font-size:38px;
+  }
+
+  .weather-app-forecast-temps {
+    text-align: center;
+    color: #4A4A48
+    display: flex;
+    justify-content: center;
+  }
+
+  .weather-app-forecast-temp {
+    padding: 0 10px;
+  }
+
 footer {
   border-top: 1px solid #ebebe2;
   padding: 30px 0 0 0;
+  margin-top: 25px;
   text-align: center;
   font-size: 14px;
 }
