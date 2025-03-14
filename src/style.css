@@ -100,15 +100,14 @@ line-height: 28px;
   font-size:38px;
   }
 
-  .weather-app-forecast-temps {
+.weather-app-forecast-temps {
     text-align: center;
     color: #4A4A48;
     display: flex;
     justify-content: center;
   }
-
-  .weather-app-forecast-temp {
-    padding: 0 10px;
+.weather-app-forecast-temp {
+    padding: 0 7px;
     margin-top: 10px;
   }
 

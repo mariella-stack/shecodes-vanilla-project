@@ -44,6 +44,8 @@ function searchCity(city) {
   axios.get(apiUrl).then(updateWeather);
 }
 
+
+
 function handleSearchSubmit(event) {
   event.preventDefault();
   let searchInput = document.querySelector("#search-form-input");
@@ -54,3 +56,26 @@ let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Paris");
+
+function displayForecast() {
+let forecast = document.querySelector(#forecast)
+forecast.innerHTML = `
+<div class="weather-app-forecast-day">
+          <div class="weather-app-forecast-date">
+            Mo
+          </div>
+          <div class="weather-app-forecast-icon">
+            🌤️
+          </div>
+          <div class="weather-app-forecast-temps">
+            <div class="weather-app-forecast-temp">
+              <strong>3°</strong>
+            </div>
+             <div class="weather-app-forecast-temp">
+              2°
+            </div>
+          </div>
+        </div>
+
+        `
+      }
